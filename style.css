@@ -1,0 +1,46 @@
+html {
+    background-color: #483D3F;
+}
+
+header {
+    margin-top: 50px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+main {
+    margin-left: 85px;
+    margin-right: 85px;
+    background-color: #F4EBD9;
+    height: 100vh;
+}
+
+h2 {
+    color: #058ED9;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+    width: 175px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bio {
+    text-align: center;
+}
+
+.p_bio::first-letter {
+    font-weight: bolder;
+    color: #058ED9;
+    font-size: 25px;
+}
+
+.favorites {
+    text-align: center;
+}
+
