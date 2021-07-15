@@ -16,10 +16,16 @@ main {
 }
 
 h2 {
-    color: #058ED9;
-    display: block;
+    
+    display: inline-block;
     margin-left: auto;
     margin-right: auto;
+}
+
+h2::first-letter {
+    font-weight: bolder;
+    color: #058ED9;
+    font-size: 25px;
 }
 
 img {
@@ -40,7 +46,28 @@ img {
     font-size: 25px;
 }
 
+.p_hobbies::first-letter {
+    font-weight: bolder;
+    color: #058ED9;
+    font-size: 25px;
+}
+
 .favorites {
+    width: 575px;
     text-align: center;
 }
 
+ul {
+    width: 500px;
+    text-align: center;
+    list-style: inside;
+}
+
+i {
+    color:#058ED9;
+}
+footer {
+    margin-left: 40px;
+    margin-top: 75px;
+    text-align: center;
+}
